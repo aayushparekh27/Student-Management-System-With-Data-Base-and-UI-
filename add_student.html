@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Student</title>
+    <script src="form_validation.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Add New Student</h2>
+    <div class="floating-box">
+        <form id="studentForm" action="add_student.php" method="POST" onsubmit="return validateForm()">
+            <label>Name:</label>
+            <input type="text" name="name" id="name" required><br><br>
+            
+            <label>Email:</label>
+            <input type="email" name="email" id="email" required><br><br>
+            
+            <label>Enrollment Number:</label>
+            <input type="text" name="enrollment_number" id="enrollmentNumber" required><br><br>
+            
+            <label>Phone Number:</label>
+            <input type="text" name="phone_number" id="phoneNumber" required><br><br>
+            
+            <label>University Name:</label>
+            <input type="text" name="university_name" id="universityName" required><br><br>
+            
+            <label>College Name:</label>
+            <input type="text" name="college_name" id="collegeName" required><br><br>
+            
+            <label>Enrollment Date:</label>
+            <input type="date" name="enrollment_date" id="enrollmentDate" required><br><br>
+            
+            <input type="submit" value="Add Student">
+        </form>
+    </div>
+</body>
+</html>

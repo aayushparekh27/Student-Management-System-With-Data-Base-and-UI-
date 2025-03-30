@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Floating Box Style */
+.floating-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Floating Animation on Hover */
+.floating-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Form Styling */
+form label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: calc(100% - 120px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;  /* Light blue background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Heading Styling */
+h2 {
+    color: #00796b; /* Teal heading */
+    margin-bottom: 20px;
+}
+
+/* Floating Box Style with Animation */
+.floating-box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+    animation: floatingEffect 3s ease-in-out infinite; /* Floating animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Colorful Floating Animation */
+@keyframes floatingEffect {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); } /* Slight upward floating motion */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff; /* White table background */
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #00796b; /* Teal header background */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td {
+    color: #555555;
+}
+
+/* Form Styling */
+form label {
+    display: inline-block;
+    width: 100px;
+    color: #00796b;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: calc(100% - 120px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #b2dfdb; /* Light teal border */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #00796b; /* Teal submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
